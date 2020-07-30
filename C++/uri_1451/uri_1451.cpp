@@ -21,7 +21,7 @@ int main()
         }
         else if (entrada[i] == '[')   //verifica se a atual posicao 'i' em 'entrada' possui o character '['
         {
-          atual = texto.begin();      //caso ele possua, o iterator aponta para o final da lista
+          atual = texto.begin();      //caso ele possua, o iterator aponta para o inicio da lista
         }
         if (entrada[i] != '[' && entrada[i] != ']') //verifica se a atual posicao 'i' em 'entrada' eh '[' ou ']'
         {
